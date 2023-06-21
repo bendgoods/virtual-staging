@@ -1,0 +1,11 @@
+BUCKET_NAME: 's3://axcelerate'
+MODEL_NAME: 'Generative-Virtual-Staging-Dev-async'
+ENDPOINT_NAME: 'generative-virtual-staging-dev-async'
+INSTANCE_TYPE: 'ml.m5.large'
+MEMORY_SIZE: 6144
+MAX_CONCURRENCY: 5
+INITIAL_INSTANCE_COUNT: 1
+ENTRY_POINT: 'inference.py'
+FRAMEWORK_VERSION: '1.12'
+PYTHON_VERSION: 'py38'
+IMAGE_URL: '362709116728.dkr.ecr.ap-southeast-1.amazonaws.com/generative-virtual-staging:v1.1.0'
